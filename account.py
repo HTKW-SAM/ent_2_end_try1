@@ -4,7 +4,7 @@ from firebase_admin import credentials
 from firebase_admin import auth
 
 
-cred=credentials.Certificate('streamlit_here/end_to_end/my-first-end-to-end-b4a83e4d0135.json')
+cred=credentials.Certificate('my-first-end-to-end-b4a83e4d0135.json')
 if not firebase_admin._apps:
     firebase_admin.initialize_app(cred)
 
